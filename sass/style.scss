@@ -1,0 +1,22 @@
+@import "global/variables";
+@import "global/fonts";
+@import "global/global";
+@import "global/container";
+
+@import "fontawesome/functions";
+@import "fontawesome/variables";
+@import "fontawesome/mixins";
+@import "fontawesome/core";
+@import "fontawesome/solid";
+
+
+@import "blocks/page";
+@import "blocks/navigation";
+@import "blocks/button";
+@import "blocks/header";
+@import "blocks/registration";
+@import "blocks/pagination";
+@import "blocks/field-group";
+@import "blocks/component";
+@import "blocks/progressbar";
+@import "blocks/rating";

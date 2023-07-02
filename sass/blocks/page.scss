@@ -1,0 +1,22 @@
+.page {
+  height: 100%;
+  font-family: "Poppins", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.page__body {
+  min-height: 100%;
+  min-width: 320px;
+  margin: 0;
+  background-color: $back-color-main;
+  color: $text-color-main;
+}
+
+.main-wrapper {
+  @media (min-width: $tablet-width) {
+    width: 1024px;
+    margin: 0 auto;
+  }
+}
