@@ -1,0 +1,64 @@
+.field-group {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.field-group__title {
+  font-weight: 700;
+  padding: 0;
+}
+
+.field-group__list {
+  display: flex;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.field-group__label {
+  position: relative;
+  display: block;
+  padding: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline dotted;
+  }
+}
+
+.field-group__input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid $line-color;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 19px;
+  color: $text-color-main;
+  background-color: $input-back-color;
+
+  &--select {
+    width: auto;
+  }
+
+  &:hover {
+    background-color: $back-color-secondary;
+    border-color: $line-color;
+  }
+}
+
+.field-group__input-radio {
+  &:checked + .field-group__label {
+    background-color: #8cb903;
+    color: $text-color-secondary;
+  }
+}
+
+.field-group__text {
+  font-size: 12px;
+  line-height: 16px;
+  color: $text-color-third;
+}
