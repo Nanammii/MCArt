@@ -12,7 +12,7 @@
 4. JavaScript ES6
 
 
-[Demo preview]()
+[Demo preview](https://nanammii.github.io/MCArt/)
 
 # Тестовое задание #
 
